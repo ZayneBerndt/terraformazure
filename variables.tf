@@ -34,10 +34,10 @@ variable admin_password {}
 variable vmcount {}
 
 # Domain Controller 2
-variable “dc2private_ip_address” {}
-variable “domainadmin_username” {}
+variable dc2private_ip_address {}
+variable domainadmin_username {}
 
 # SQL LB
-variable “lbprivate_ip_address” {}
+variable lbprivate_ip_address {}
 # SQL DB Servers
 variable sqlvmcount {}
